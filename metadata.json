@@ -1,0 +1,5 @@
+{
+  "name": "Digital Twin of a Student",
+  "description": "A sophisticated performance prediction system that creates a digital twin model based on study habits, sleep patterns, and stress levels to forecast academic success using Firestore for persistence and Chart.js for visualization.",
+  "requestFramePermissions": []
+}
