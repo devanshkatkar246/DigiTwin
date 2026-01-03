@@ -1,20 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎓 Digital Twin of a Student
 
-# Run and deploy your AI Studio app
+A smart web-based application that creates a **digital representation of a student** to track, analyze, and visualize academic and personal performance using modern web technologies.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1coB83pSg4iHZN5mPSqkQs-Xk7DtwXloR
+## 🚀 Features
 
-## Run Locally
+- 🔐 Firebase Authentication (secure login)
+- 📊 Student performance tracking
+- 🧠 Digital twin concept for students
+- 🌐 Real-time database integration
+- 🎨 Modern UI with responsive design
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend:** React + Vite
+- **Backend / Services:** Firebase
+- **Database:** Firestore / Realtime Database
+- **Authentication:** Firebase Auth
+- **Styling:** CSS / Tailwind (if used)
+
+---
+
+## 📁 Project Setup (Run Locally)
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/devanshkatkar246/digital-twin-of-a-student.git
+cd digital-twin-of-a-student
+
+2️⃣ Install dependencies: npm install
+
+3️⃣ Create environment file ⚠️ (IMPORTANT)
+   Create a file named .env.local in the root directory.
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+
+4️⃣ Start the development server: npm run dev
+
+📌 Firebase Setup
+
+1.Create a Firebase project
+2.Add a Web App
+3.Enable:
+   Authentication
+   Firestore / Realtime Database
+4.Add your config values to .env.local
+
+🤝 Contribution
+This project is currently developed for learning, innovation, and hackathon purposes.
+Feel free to fork and experiment.
+
+⭐ If you like this project Don’t forget to star ⭐ the repository!
