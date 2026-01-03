@@ -5,10 +5,10 @@ import { getFirestore, collection, addDoc, serverTimestamp } from "firebase/fire
 
 // ---------------- CONFIG ----------------
 const firebaseConfig = {
-  apiKey: "AIzaSyDzjPx-XGYAd3oSbCGCutAFSvBZOtW3fm4",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "digitwin-1b46b.firebaseapp.com",
   projectId: "digitwin-1b46b",
-  storageBucket: "digitwin-1b46b.appspot.com",       // FIXED typo (must be .appspot.com)
+  storageBucket: "digitwin-1b46b.appspot.com",
   messagingSenderId: "615875565866",
   appId: "1:615875565866:web:74c194df01df88a1182653"
 };
