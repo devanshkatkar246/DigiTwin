@@ -26,7 +26,7 @@ A smart web-based application that creates a **digital representation of a stude
 
 ## 📁 Project Setup (Run Locally)
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/devanshkatkar246/digital-twin-of-a-student.git
 cd digital-twin-of-a-student
